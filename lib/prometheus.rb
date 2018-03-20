@@ -12,7 +12,7 @@ module Prometheus
     prometheus.register(http_requests)
 
     # equivalent helper function
-    http_requests = prometheus.counter(:http_requests, 'A counter of HTTP requests made')
+    #http_requests = prometheus.counter(:http_requests, 'A counter of HTTP requests made')
 
     # start using the counter
     http_requests.increment
