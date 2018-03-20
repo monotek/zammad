@@ -111,6 +111,9 @@ gem 'autodiscover', git: 'https://github.com/thorsteneckel/autodiscover.git'
 gem 'rubyntlm', git: 'https://github.com/wimm/rubyntlm.git'
 gem 'viewpoint'
 
+# monitoring
+gem 'prometheus-client'
+
 # Gems used only for develop/test and not required
 # in production environments by default.
 group :development, :test do
