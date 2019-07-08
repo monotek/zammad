@@ -82,16 +82,6 @@ targets:
     build_dependencies:
       - imlib2
       - imlib2-devel
-  sles-12:
-    dependencies:
-      - curl
-      - elasticsearch
-      - nginx
-      - postgresql-server
-      - imlib2
-      - libImlib2-1
-      - imlib2
-      - imlib2-devel
     build_dependencies:
       - https://ftp.gwdg.de/pub/opensuse/discontinued/distribution/12.3/repo/oss/suse/x86_64/imlib2-1.4.5-12.1.1.x86_64.rpm
       - https://ftp.gwdg.de/pub/opensuse/discontinued/distribution/12.3/repo/oss/suse/x86_64/imlib2-devel-1.4.5-12.1.1.x86_64.rpm
